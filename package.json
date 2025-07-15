@@ -1,0 +1,27 @@
+{
+  "name": "synape-earn-bot-system",
+  "version": "1.0.0",
+  "description": "Complete SYNAPE EARN Telegram Bot System with Admin Panel",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "bot": "cd bot && node bot.js",
+    "admin": "cd admin && node server.js",
+    "install-all": "cd bot && npm install && cd ../admin && npm install",
+    "dev": "npm run start"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "referral",
+    "earn",
+    "admin",
+    "panel"
+  ],
+  "author": "SYNAPE EARN",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
